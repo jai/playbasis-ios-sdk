@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29278F5319FCF8F6003DAB19 /* pblib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29278F4819FCE71A003DAB19 /* pblib.a */; };
+		29278F5519FD5036003DAB19 /* PBBadgeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29278F5419FD5036003DAB19 /* PBBadgeCollectionViewController.swift */; };
+		29278F5619FD5036003DAB19 /* PBBadgeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29278F5419FD5036003DAB19 /* PBBadgeCollectionViewController.swift */; };
+		29278F5819FD5174003DAB19 /* PBBadgeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29278F5719FD5174003DAB19 /* PBBadgeCollectionViewCell.swift */; };
+		29278F5919FD5174003DAB19 /* PBBadgeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29278F5719FD5174003DAB19 /* PBBadgeCollectionViewCell.swift */; };
+		29278F5C19FD55CC003DAB19 /* PBBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29278F5B19FD55CC003DAB19 /* PBBadge.swift */; };
+		29278F5D19FD55CC003DAB19 /* PBBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29278F5B19FD55CC003DAB19 /* PBBadge.swift */; };
+		29278F6219FD5B77003DAB19 /* PBJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29278F6119FD5B77003DAB19 /* PBJSONParser.swift */; };
+		29278F6319FD5B77003DAB19 /* PBJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29278F6119FD5B77003DAB19 /* PBJSONParser.swift */; };
+		29B5287019F6BAFA00B554DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B5286F19F6BAFA00B554DD /* AppDelegate.swift */; };
+		29B5287219F6BAFA00B554DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B5287119F6BAFA00B554DD /* ViewController.swift */; };
+		29B5287519F6BAFA00B554DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B5287319F6BAFA00B554DD /* Main.storyboard */; };
+		29B5287719F6BAFA00B554DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B5287619F6BAFA00B554DD /* Images.xcassets */; };
+		29B5287A19F6BAFA00B554DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29B5287819F6BAFA00B554DD /* LaunchScreen.xib */; };
+		29B5288619F6BAFA00B554DD /* Playbasis_iOS_SDK_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B5288519F6BAFA00B554DD /* Playbasis_iOS_SDK_DemoTests.swift */; };
+		7F451FC0B19CC48687B52F84 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3B11A4D8A62FB7F8AD1623 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29278F4719FCE71A003DAB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29278F4319FCE71A003DAB19 /* pblib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2C1C74F517461E1B005F3B57;
+			remoteInfo = pblib;
+		};
+		29278F5119FCF8D5003DAB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29278F4319FCE71A003DAB19 /* pblib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1C74F417461E1B005F3B57;
+			remoteInfo = pblib;
+		};
+		29B5288019F6BAFA00B554DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B5286219F6BAFA00B554DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29B5286919F6BAFA00B554DD;
+			remoteInfo = "Playbasis iOS SDK Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		236E6AF9FCD573C971154C23 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		29278F4319FCE71A003DAB19 /* pblib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = pblib.xcodeproj; path = pblib/pblib.xcodeproj; sourceTree = "<group>"; };
+		29278F4C19FCE8F8003DAB19 /* Playbasis-iOS-SDK-Demo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Playbasis-iOS-SDK-Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		29278F5419FD5036003DAB19 /* PBBadgeCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBBadgeCollectionViewController.swift; sourceTree = "<group>"; };
+		29278F5719FD5174003DAB19 /* PBBadgeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBBadgeCollectionViewCell.swift; sourceTree = "<group>"; };
+		29278F5B19FD55CC003DAB19 /* PBBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBBadge.swift; sourceTree = "<group>"; };
+		29278F6119FD5B77003DAB19 /* PBJSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBJSONParser.swift; sourceTree = "<group>"; };
+		29B5286A19F6BAFA00B554DD /* Playbasis iOS SDK Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Playbasis iOS SDK Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B5286E19F6BAFA00B554DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B5286F19F6BAFA00B554DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29B5287119F6BAFA00B554DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29B5287419F6BAFA00B554DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29B5287619F6BAFA00B554DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29B5287919F6BAFA00B554DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		29B5287F19F6BAFA00B554DD /* Playbasis iOS SDK DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Playbasis iOS SDK DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B5288419F6BAFA00B554DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B5288519F6BAFA00B554DD /* Playbasis_iOS_SDK_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playbasis_iOS_SDK_DemoTests.swift; sourceTree = "<group>"; };
+		E788CBB52161E8CDC3FBF457 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EF3B11A4D8A62FB7F8AD1623 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29B5286719F6BAFA00B554DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29278F5319FCF8F6003DAB19 /* pblib.a in Frameworks */,
+				7F451FC0B19CC48687B52F84 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B5287C19F6BAFA00B554DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11993501B4C50469DFAFAF8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				236E6AF9FCD573C971154C23 /* Pods.debug.xcconfig */,
+				E788CBB52161E8CDC3FBF457 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		29278F4419FCE71A003DAB19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29278F4819FCE71A003DAB19 /* pblib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29278F5A19FD517B003DAB19 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				29278F5419FD5036003DAB19 /* PBBadgeCollectionViewController.swift */,
+				29278F5719FD5174003DAB19 /* PBBadgeCollectionViewCell.swift */,
+				29278F5B19FD55CC003DAB19 /* PBBadge.swift */,
+			);
+			name = Badges;
+			sourceTree = "<group>";
+		};
+		29B5286119F6BAFA00B554DD = {
+			isa = PBXGroup;
+			children = (
+				29278F4C19FCE8F8003DAB19 /* Playbasis-iOS-SDK-Demo-Bridging-Header.h */,
+				29278F4319FCE71A003DAB19 /* pblib.xcodeproj */,
+				29B5286C19F6BAFA00B554DD /* Playbasis iOS SDK Demo */,
+				29B5288219F6BAFA00B554DD /* Playbasis iOS SDK DemoTests */,
+				29B5286B19F6BAFA00B554DD /* Products */,
+				11993501B4C50469DFAFAF8D /* Pods */,
+				920C7C23C489B4DB016DCBA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29B5286B19F6BAFA00B554DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29B5286A19F6BAFA00B554DD /* Playbasis iOS SDK Demo.app */,
+				29B5287F19F6BAFA00B554DD /* Playbasis iOS SDK DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B5286C19F6BAFA00B554DD /* Playbasis iOS SDK Demo */ = {
+			isa = PBXGroup;
+			children = (
+				29B5286F19F6BAFA00B554DD /* AppDelegate.swift */,
+				29B5287119F6BAFA00B554DD /* ViewController.swift */,
+				29B5287319F6BAFA00B554DD /* Main.storyboard */,
+				29B5287619F6BAFA00B554DD /* Images.xcassets */,
+				29B5287819F6BAFA00B554DD /* LaunchScreen.xib */,
+				29B5286D19F6BAFA00B554DD /* Supporting Files */,
+				29278F5A19FD517B003DAB19 /* Badges */,
+				29278F6119FD5B77003DAB19 /* PBJSONParser.swift */,
+			);
+			path = "Playbasis iOS SDK Demo";
+			sourceTree = "<group>";
+		};
+		29B5286D19F6BAFA00B554DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29B5286E19F6BAFA00B554DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29B5288219F6BAFA00B554DD /* Playbasis iOS SDK DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				29B5288519F6BAFA00B554DD /* Playbasis_iOS_SDK_DemoTests.swift */,
+				29B5288319F6BAFA00B554DD /* Supporting Files */,
+			);
+			path = "Playbasis iOS SDK DemoTests";
+			sourceTree = "<group>";
+		};
+		29B5288319F6BAFA00B554DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29B5288419F6BAFA00B554DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		920C7C23C489B4DB016DCBA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF3B11A4D8A62FB7F8AD1623 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29B5286919F6BAFA00B554DD /* Playbasis iOS SDK Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29B5288919F6BAFA00B554DD /* Build configuration list for PBXNativeTarget "Playbasis iOS SDK Demo" */;
+			buildPhases = (
+				AF3D3391BCFCB40BBC8BA592 /* Check Pods Manifest.lock */,
+				29B5286619F6BAFA00B554DD /* Sources */,
+				29B5286719F6BAFA00B554DD /* Frameworks */,
+				29B5286819F6BAFA00B554DD /* Resources */,
+				85B745FCDCBA5CD978FE1734 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29278F5219FCF8D5003DAB19 /* PBXTargetDependency */,
+			);
+			name = "Playbasis iOS SDK Demo";
+			productName = "Playbasis iOS SDK Demo";
+			productReference = 29B5286A19F6BAFA00B554DD /* Playbasis iOS SDK Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29B5287E19F6BAFA00B554DD /* Playbasis iOS SDK DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29B5288C19F6BAFA00B554DD /* Build configuration list for PBXNativeTarget "Playbasis iOS SDK DemoTests" */;
+			buildPhases = (
+				29B5287B19F6BAFA00B554DD /* Sources */,
+				29B5287C19F6BAFA00B554DD /* Frameworks */,
+				29B5287D19F6BAFA00B554DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29B5288119F6BAFA00B554DD /* PBXTargetDependency */,
+			);
+			name = "Playbasis iOS SDK DemoTests";
+			productName = "Playbasis iOS SDK DemoTests";
+			productReference = 29B5287F19F6BAFA00B554DD /* Playbasis iOS SDK DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B5286219F6BAFA00B554DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jai Govindani";
+				TargetAttributes = {
+					29B5286919F6BAFA00B554DD = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					29B5287E19F6BAFA00B554DD = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 29B5286919F6BAFA00B554DD;
+					};
+				};
+			};
+			buildConfigurationList = 29B5286519F6BAFA00B554DD /* Build configuration list for PBXProject "Playbasis iOS SDK Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29B5286119F6BAFA00B554DD;
+			productRefGroup = 29B5286B19F6BAFA00B554DD /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 29278F4419FCE71A003DAB19 /* Products */;
+					ProjectRef = 29278F4319FCE71A003DAB19 /* pblib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				29B5286919F6BAFA00B554DD /* Playbasis iOS SDK Demo */,
+				29B5287E19F6BAFA00B554DD /* Playbasis iOS SDK DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		29278F4819FCE71A003DAB19 /* pblib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = pblib.a;
+			remoteRef = 29278F4719FCE71A003DAB19 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29B5286819F6BAFA00B554DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B5287519F6BAFA00B554DD /* Main.storyboard in Resources */,
+				29B5287A19F6BAFA00B554DD /* LaunchScreen.xib in Resources */,
+				29B5287719F6BAFA00B554DD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B5287D19F6BAFA00B554DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85B745FCDCBA5CD978FE1734 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF3D3391BCFCB40BBC8BA592 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29B5286619F6BAFA00B554DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B5287219F6BAFA00B554DD /* ViewController.swift in Sources */,
+				29278F5519FD5036003DAB19 /* PBBadgeCollectionViewController.swift in Sources */,
+				29278F6219FD5B77003DAB19 /* PBJSONParser.swift in Sources */,
+				29278F5819FD5174003DAB19 /* PBBadgeCollectionViewCell.swift in Sources */,
+				29278F5C19FD55CC003DAB19 /* PBBadge.swift in Sources */,
+				29B5287019F6BAFA00B554DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B5287B19F6BAFA00B554DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29278F5919FD5174003DAB19 /* PBBadgeCollectionViewCell.swift in Sources */,
+				29278F5D19FD55CC003DAB19 /* PBBadge.swift in Sources */,
+				29278F5619FD5036003DAB19 /* PBBadgeCollectionViewController.swift in Sources */,
+				29B5288619F6BAFA00B554DD /* Playbasis_iOS_SDK_DemoTests.swift in Sources */,
+				29278F6319FD5B77003DAB19 /* PBJSONParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29278F5219FCF8D5003DAB19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pblib;
+			targetProxy = 29278F5119FCF8D5003DAB19 /* PBXContainerItemProxy */;
+		};
+		29B5288119F6BAFA00B554DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29B5286919F6BAFA00B554DD /* Playbasis iOS SDK Demo */;
+			targetProxy = 29B5288019F6BAFA00B554DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29B5287319F6BAFA00B554DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B5287419F6BAFA00B554DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29B5287819F6BAFA00B554DD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B5287919F6BAFA00B554DD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29B5288719F6BAFA00B554DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Playbasis-iOS-SDK-Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		29B5288819F6BAFA00B554DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Playbasis-iOS-SDK-Demo-Bridging-Header.h";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		29B5288A19F6BAFA00B554DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 236E6AF9FCD573C971154C23 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Playbasis iOS SDK Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29B5288B19F6BAFA00B554DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E788CBB52161E8CDC3FBF457 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Playbasis iOS SDK Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		29B5288D19F6BAFA00B554DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Playbasis iOS SDK DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Playbasis iOS SDK Demo.app/Playbasis iOS SDK Demo";
+			};
+			name = Debug;
+		};
+		29B5288E19F6BAFA00B554DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Playbasis iOS SDK DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Playbasis iOS SDK Demo.app/Playbasis iOS SDK Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29B5286519F6BAFA00B554DD /* Build configuration list for PBXProject "Playbasis iOS SDK Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B5288719F6BAFA00B554DD /* Debug */,
+				29B5288819F6BAFA00B554DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29B5288919F6BAFA00B554DD /* Build configuration list for PBXNativeTarget "Playbasis iOS SDK Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B5288A19F6BAFA00B554DD /* Debug */,
+				29B5288B19F6BAFA00B554DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29B5288C19F6BAFA00B554DD /* Build configuration list for PBXNativeTarget "Playbasis iOS SDK DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B5288D19F6BAFA00B554DD /* Debug */,
+				29B5288E19F6BAFA00B554DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B5286219F6BAFA00B554DD /* Project object */;
+}
